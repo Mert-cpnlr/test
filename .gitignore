@@ -1,32 +1,138 @@
-# Prerequisites
-*.d
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Strafbeschikking Advocaten</title>
+<style>
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+        body {
 
-# Precompiled Headers
-*.gch
-*.pch
+            font-family: Arial, sans-serif;
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+            margin: 0;
 
-# Fortran module files
-*.mod
-*.smod
+            padding: 0;
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+            background-color: #f8f9fa;
 
-# Executables
-*.exe
-*.out
-*.app
+        }
+
+        header {
+
+            background-color: #343a40;
+
+            color: white;
+
+            padding: 15px;
+
+            text-align: center;
+
+        }
+
+        nav {
+
+            display: flex;
+
+            justify-content: center;
+
+            background-color: #495057;
+
+            padding: 10px;
+
+        }
+
+        nav a {
+
+            color: white;
+
+            text-decoration: none;
+
+            padding: 10px 20px;
+
+        }
+
+        nav a:hover {
+
+            background-color: #6c757d;
+
+        }
+
+        .container {
+
+            padding: 20px;
+
+            max-width: 1000px;
+
+            margin: auto;
+
+            background: white;
+
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+        }
+
+        footer {
+
+            background-color: #343a40;
+
+            color: white;
+
+            text-align: center;
+
+            padding: 10px;
+
+            position: relative;
+
+            bottom: 0;
+
+            width: 100%;
+
+        }
+</style>
+</head>
+<body>
+<header>
+<h1>Strafbeschikking Advocaten</h1>
+</header>
+<nav>
+<a href="#home">Home</a>
+<a href="#over">Over Ons</a>
+<a href="#diensten">Diensten</a>
+<a href="#contact">Contact</a>
+<a href="#blog">Blog</a>
+</nav>
+<div class="container" id="home">
+<h2>Welkom bij Strafbeschikking Advocaten</h2>
+<p>Heeft u een strafbeschikking ontvangen? Onze gespecialiseerde advocaten helpen u om hiertegen in verzet te gaan en uw rechten te beschermen.</p>
+</div>
+<div class="container" id="over">
+<h2>Over Ons</h2>
+<p>Wij zijn een team van ervaren strafrechtadvocaten die cliënten bijstaan bij strafbeschikkingen en andere juridische procedures.</p>
+</div>
+<div class="container" id="diensten">
+<h2>Onze Diensten</h2>
+<ul>
+<li>Verzet tegen strafbeschikkingen</li>
+<li>Juridisch advies</li>
+<li>Begeleiding in rechtszaken</li>
+<li>Opstellen van bezwaar en beroepsprocedures</li>
+</ul>
+</div>
+<div class="container" id="contact">
+<h2>Contact</h2>
+<p>Neem contact met ons op voor een vrijblijvend adviesgesprek.</p>
+<p>Email: info@strafbeschikkingadvocaten.nl</p>
+<p>Telefoon: 06-12345678</p>
+</div>
+<div class="container" id="blog">
+<h2>Blog</h2>
+<p>Lees onze nieuwste artikelen over strafbeschikkingen en juridische ontwikkelingen.</p>
+</div>
+<footer>
+<p>&copy; 2025 Strafbeschikking Advocaten - Alle rechten voorbehouden.</p>
+</footer>
+</body>
+</html>
+
+ 
